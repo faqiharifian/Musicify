@@ -4,10 +4,16 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="musicify">Musicify here!</string>
+    <string name="musicify">Musicify here!\nMusic can be played with MediaPlayer class.\nThis activity showing all track available from user\'s device.</string>
     <string name="nav_playing">Now Playing</string>
     <string name="nav_recent">Recent</string>
     <string name="nav_genre">Genre</string>
     <string name="nav_artists">Artists</string>
     <string name="nav_playlist">Playlist</string>
+
+    <string name="activity_playing_description">Now Playing\nThis activity is used to show playing music. Music can be played with MediaPlayer class.</string>
+    <string name="activity_recent_description">Recent\nThis activity is used to show recent played music. Most recent played music will be displayed in the top. \nItems will be displayed as list vertically using RecyclerView</string>
+    <string name="activity_genre_description">Genre\nThis activity is displaying list of genres from tracks available from user\'s devices.\nItems will be displayed as grid with 2 columns using RecyclerView.\n Each item display image represent each genre.</string>
+    <string name="activity_artists_description">Artists\nThis activity is displaying list of artists from tracks available from user\'s devices.\nItems will be displayed as grid with 2 columns using RecyclerView.\n Each item display image represent each artists.</string>
+    <string name="activity_playlist_description">Playlist\nThis activity is displaying list of playlist made by user.\nItems will be displayed as list vertically using RecyclerView</string>
 </resources>
